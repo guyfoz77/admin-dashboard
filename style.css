@@ -32,11 +32,26 @@ img {
     flex-direction: column;
     gap: 50px;
     padding-top: 10px;
+    background-color: var(--main-colour);
+    color: var(--secondary-light);
+    position: relative;
 }
+
+    .sidebar img {
+        filter: invert(96%) sepia(15%) saturate(242%) hue-rotate(46deg) brightness(105%) contrast(95%);
+        height: 1.5em;
+    }
+
     .dashboardLogo,
     .navButtons,
     .settingsButtons {
         padding-left: 30px;
+        }
+
+        .dashboardLogo {
+            font-size: 25px;
+            position: relative;
+            left: -10px;
         }
         .sideButton {
             display: flex;
