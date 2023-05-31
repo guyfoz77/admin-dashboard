@@ -60,3 +60,17 @@ img {
             align-items: center;
         }
 
+.header {
+    background-color: var(--secondary-light);
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+    .headerTop {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    input[type='search'] {
+        border-radius: 50px;
+    }
