@@ -37,15 +37,15 @@ img {
     position: relative;
 }
 
-    .sidebar img {
-        filter: invert(96%) sepia(15%) saturate(242%) hue-rotate(46deg) brightness(105%) contrast(95%);
-        height: 1.5em;
+    .sidebar span {
+        color: var(--secondary-light);
+        font-size: 1.5em;
     }
 
     .dashboardLogo,
     .navButtons,
     .settingsButtons {
-        padding-left: 30px;
+        padding-left: 20px;
         }
 
         .dashboardLogo {
