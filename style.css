@@ -63,21 +63,32 @@ img {
 .header {
     background-color: var(--secondary-light);
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1.5fr;
 }
     .headerTop {
         display: grid;
-        padding: 0 30px;
         align-items: center;
-        justify-content: space-around;
-        grid-template-columns: 1fr 6fr repeat(3, 1fr);
-        gap: 30px;
+        grid-template-columns: 1fr 4fr 4fr;
+        justify-items: left;
+        gap: 10px;
     }
 
     input[type='search'] {
         border-radius: 50px;
+        width: 100%;
     }
 
     label {
         justify-self: right;
+    }
+
+    .headerTop>div {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        justify-self: center;
+    }
+
+    .headerTop img {
+        height: 2.5em;
     }
