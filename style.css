@@ -66,11 +66,18 @@ img {
     grid-template-rows: 1fr 2fr;
 }
     .headerTop {
-        display: flex;
+        display: grid;
+        padding: 0 30px;
         align-items: center;
         justify-content: space-around;
+        grid-template-columns: 1fr 6fr repeat(3, 1fr);
+        gap: 30px;
     }
 
     input[type='search'] {
         border-radius: 50px;
+    }
+
+    label {
+        justify-self: right;
     }
