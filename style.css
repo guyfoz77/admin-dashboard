@@ -12,7 +12,7 @@
 }
 
 div {
-    border: solid black;
+    /* border: solid black; */
 }
 
 img {
@@ -75,9 +75,10 @@ p {
 
 .header {
     background-color: var(--secondary-light);
+    z-index: 1;
     display: grid;
     grid-template-rows: 1fr 1.5fr;
-    box-shadow: 0px 0px 20px;
+    box-shadow: 0px 5px 10px -5px black;
 }
     .headerTop {
         display: grid;
@@ -118,3 +119,7 @@ p {
         .headerBottom>img {
             height: 80%;
         }
+
+    .content {
+        background-color: var(--secondary-dark);
+    }
