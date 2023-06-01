@@ -142,5 +142,19 @@ p {
 
             .projectCard {
                 background-color: var(--secondary-light);
+                border-radius: 10px;
+                box-shadow: inset 5px 0px var(--accent-colour);
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
             }
+
+                .projectCard .projectCardContent {
+                    flex: 1;
+                }
+                .projectCard .starShareSend {
+                    align-self: end;
+                    display: flex;
+                    gap: 20px;
+                }
 
