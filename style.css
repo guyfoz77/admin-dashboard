@@ -12,7 +12,7 @@
 }
 
 div {
-    border: solid black;
+    /* border: solid black; */
 }
 
 img {
@@ -140,10 +140,12 @@ p {
                 grid-column: 1 / span 2;
             }
 
-            .projectCard {
+            .projectCard,
+            .announcmentsContent,
+            .trendingContent {
                 background-color: var(--secondary-light);
                 border-radius: 10px;
-                box-shadow: inset 5px 0px var(--accent-colour);
+                box-shadow: inset 5px 0px var(--accent-colour), 0px 0px 20px rgb(196, 196, 196);
                 padding: 10px;
                 display: flex;
                 flex-direction: column;
@@ -158,3 +160,16 @@ p {
                     gap: 20px;
                 }
 
+        .trending,
+        .announcments {
+            padding: 20px 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .announcmentsContent,
+        .trendingContent {
+            flex: 1;
+            box-shadow: 0px 0px 20px rgb(196, 196, 196);
+        }
