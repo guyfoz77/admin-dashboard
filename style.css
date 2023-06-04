@@ -199,3 +199,18 @@ p {
                 .announcmentsContent div:last-child {
                     border-bottom: none;
                 }
+
+            .trendingContent {
+                justify-content: center;
+                gap: 20px;
+            }
+                .trendingUser {
+                    display: flex;
+                    align-items: centers;
+                    gap: 10px;
+                    min-width: 80%;
+                }
+
+                .trendingUser>img {
+                    height: 50px;
+                }
