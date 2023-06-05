@@ -11,6 +11,11 @@
     font-family: 'Merriweather', serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 div {
     /* border: solid black; */
 }
@@ -203,6 +208,7 @@ p {
             .trendingContent {
                 justify-content: center;
                 gap: 20px;
+                padding: 20px;
             }
                 .trendingUser {
                     display: flex;
