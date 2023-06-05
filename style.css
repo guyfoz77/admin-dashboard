@@ -183,7 +183,6 @@ p {
             .trending,
             .announcments {
                 padding: 20px 10px;
-                height: 350px;
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
@@ -205,6 +204,7 @@ p {
                 .announcmentsContent div {
                     border-bottom: solid #f8da5b;
                     height: 33.33%;
+                    padding-bottom: 10px;
                 }
                 .announcmentsContent h5 {
                     font-style: italic;
