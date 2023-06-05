@@ -31,6 +31,7 @@ input[type='button'] {
     height: 3em;
     background-color: var(--main-colour);
     color: var(--secondary-light);
+    cursor: pointer;
 }
 
 input[type='search'] {
@@ -38,6 +39,7 @@ input[type='search'] {
     width: 100%;
     border: none;
     background-color: var(--secondary-dark);
+    padding-left: 10px;
 }
 
 p {
@@ -83,6 +85,8 @@ p {
             margin: 10px 0px;
             gap: 10px;
             align-items: center;
+            cursor: pointer;
+            width: fit-content;
         }
 
 .header {
