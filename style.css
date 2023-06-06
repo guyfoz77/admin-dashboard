@@ -42,9 +42,10 @@ input[type='button']:active {
 input[type='search'] {
     border-radius: 50px;
     width: 100%;
+    height: 40px;
     border: none;
     background-color: var(--secondary-dark);
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 p {
@@ -53,7 +54,6 @@ p {
 
 .mainContainer {
     min-height: 100vh; width: 100vw;
-    background-color: aqua;
     display: grid;
     grid-template: 150px 1fr / 250px 1fr;
 }
